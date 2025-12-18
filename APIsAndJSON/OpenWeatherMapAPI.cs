@@ -9,7 +9,7 @@ namespace APIsAndJSON
 {
     public static class OpenWeatherMapAPI
     {
-        public static void ZipCodeFahrenheit()
+        public static void WeatherReport()
         {
             var appsettingsText = File.ReadAllText("appsettings.json");
 
@@ -28,7 +28,12 @@ namespace APIsAndJSON
             
             var weatherObject= JObject.Parse(weatherResponseJson); //Had to consult video for this
             
-            Console.WriteLine($"ZipCode: {zip}, Temperature: {weatherObject["main"]["temp"]}");
+            Console.WriteLine($" ZipCode: {zip}\n " +
+                              $"City Name: {weatherObject["name"]}\n " +
+                              $"Temperature: {weatherObject["main"]["temp"]} °F\n " +
+                              $"Feels Like: {weatherObject["main"]["feels_like"]}\n " +
+                              $"Humidity: {weatherObject["main"]["humidity"]}\n " +
+                              $"Weather Type: {weatherObject["weather"][0]["description"]}");
         }
     }
 }

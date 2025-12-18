@@ -6,7 +6,7 @@
         {
             //RonVSKanyeAPI.Discussion();
             
-            OpenWeatherMapAPI.ZipCodeFahrenheit();
+            OpenWeatherMapAPI.WeatherReport();
         }
     }
 }
