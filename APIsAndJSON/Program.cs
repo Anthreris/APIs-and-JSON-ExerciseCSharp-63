@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            RonVSKanyeAPI.Discussion();
+            //RonVSKanyeAPI.Discussion();
+            
+            OpenWeatherMapAPI.ZipCodeFahrenheit();
         }
     }
 }

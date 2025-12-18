@@ -31,3 +31,4 @@ C:\Users\Garrett Chitwood\Desktop\repos\APIs-and-JSON-ExerciseCSharp-63\APIsAndJ
 C:\Users\Garrett Chitwood\Desktop\repos\APIs-and-JSON-ExerciseCSharp-63\APIsAndJSON\obj\Debug\net9.0\APIsAndJSON.pdb
 C:\Users\Garrett Chitwood\Desktop\repos\APIs-and-JSON-ExerciseCSharp-63\APIsAndJSON\obj\Debug\net9.0\APIsAndJSON.genruntimeconfig.cache
 C:\Users\Garrett Chitwood\Desktop\repos\APIs-and-JSON-ExerciseCSharp-63\APIsAndJSON\obj\Debug\net9.0\ref\APIsAndJSON.dll
+C:\Users\Garrett Chitwood\Desktop\repos\APIs-and-JSON-ExerciseCSharp-63\APIsAndJSON\bin\Debug\net9.0\appsettings.json
